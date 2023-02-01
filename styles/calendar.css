@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar {
+  width: 440px;
+}
+
+.month__name {
+  text-align: center;
+}
+
+.square {
+  height: 56px;
+  width: 56px;
+  background-color: #F1F5F9;
+  border-radius: 12px;
+}
+
+.square_empty {
+  visibility: hidden;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+
+.square__number {
+  position: relative;
+  right: -32px;
+  bottom: -35px;
+  width: 15px;
+  text-align: right;
+}
+
+.square__indicator-1 {
+  position: relative;
+  right: -5px;
+  top: -10px;
+  height: 12px;
+  width: 12px;
+  background-color: #AA9FB5;
+  border-radius: 3px;
+}
+
+.square__indicator-2 {
+  position: relative;
+  right: -5px;
+  top: -16px;
+  height: 12px;
+  width: 12px;
+  background-color: #F1D9D9;
+  border-radius: 3px;
+}
